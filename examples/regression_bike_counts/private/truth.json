@@ -1,0 +1,28 @@
+{
+  "task": "regression",
+  "metric": "rmse",
+  "n_clusters": null,
+  "target": "target",
+  "id_column": null,
+  "injected": {
+    "constant": [
+      "const_0"
+    ],
+    "duplicate": [
+      "timestamp_copy",
+      "temp_copy"
+    ],
+    "id": [
+      "record_id"
+    ],
+    "missing": [
+      "noise_0"
+    ],
+    "noise": [
+      "noise_0",
+      "noise_1"
+    ],
+    "differently_scaled": [],
+    "binned": []
+  }
+}

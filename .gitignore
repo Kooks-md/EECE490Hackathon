@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+out/
+outputs/
+bench_data/
+bench_results/
+*.tmp-*

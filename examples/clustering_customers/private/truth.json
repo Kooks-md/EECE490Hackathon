@@ -1,0 +1,24 @@
+{
+  "task": "clustering",
+  "metric": "ari",
+  "n_clusters": 5,
+  "target": null,
+  "id_column": null,
+  "injected": {
+    "constant": [
+      "const_0"
+    ],
+    "duplicate": [
+      "annual_income_k_copy"
+    ],
+    "id": [],
+    "missing": [],
+    "noise": [],
+    "differently_scaled": [
+      "age",
+      "spending_score",
+      "annual_income_k"
+    ],
+    "binned": []
+  }
+}

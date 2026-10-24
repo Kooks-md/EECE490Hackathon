@@ -1,0 +1,25 @@
+{
+  "task": "classification",
+  "metric": "f1_macro",
+  "n_clusters": null,
+  "target": "target",
+  "id_column": null,
+  "injected": {
+    "constant": [],
+    "duplicate": [],
+    "id": [
+      "record_id"
+    ],
+    "missing": [],
+    "noise": [
+      "noise_0",
+      "noise_1"
+    ],
+    "differently_scaled": [
+      "total_charges",
+      "tenure",
+      "monthly_charges"
+    ],
+    "binned": []
+  }
+}

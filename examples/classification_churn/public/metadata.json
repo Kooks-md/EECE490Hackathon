@@ -1,0 +1,16 @@
+{
+  "name": "classification_churn",
+  "task": "classification",
+  "metric": "f1_macro",
+  "target": "target",
+  "feature_types": {
+    "noise_0": "numeric",
+    "tenure": "numeric",
+    "contract": "categorical",
+    "tech_support": "categorical",
+    "service": "categorical",
+    "total_charges": "numeric",
+    "noise_1": "numeric",
+    "monthly_charges": "numeric"
+  }
+}

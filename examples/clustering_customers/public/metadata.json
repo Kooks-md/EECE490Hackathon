@@ -1,0 +1,14 @@
+{
+  "name": "clustering_customers",
+  "task": "clustering",
+  "metric": "ari",
+  "n_clusters": 5,
+  "feature_types": {
+    "annual_income_k": "numeric",
+    "const_0": "numeric",
+    "age": "numeric",
+    "gender": "categorical",
+    "spending_score": "numeric",
+    "annual_income_k_copy": "numeric"
+  }
+}
